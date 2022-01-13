@@ -1,0 +1,36 @@
+    .content {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 5px;
+    }
+    div {
+      text-align: center;
+    }
+    .title {
+      padding: auto;
+      background-color: lightslategray;
+      color: black;
+      font-size: 2em;
+      font-weight: bold;
+      font-family: initial;
+    }
+    .atd {
+      padding: 42px;
+      background-color: lightslategrey;
+    }
+    .at {
+      background-color: lightslategrey;
+    }
+    .dta {
+      padding: 3px;
+      background-color: black;
+      font-size: 1.5em;
+    }
+    .button1 {
+      width: 42%;
+      border-radius: 12px;
+      background-color: darkslategray;
+      color: black;
+      font-size: 1.5em;
+      box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
